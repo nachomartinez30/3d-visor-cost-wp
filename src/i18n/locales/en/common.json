@@ -1,0 +1,20 @@
+{
+  "brand": {
+    "tagline": "On-demand 3D printing, quoted in seconds."
+  },
+  "language": {
+    "label": "Language",
+    "name": "English"
+  },
+  "nav": {
+    "home": "Layerform 3D — home",
+    "menu": "Open menu",
+    "label": "Main navigation",
+    "skip": "Skip to content",
+    "services": "Services",
+    "about": "About",
+    "process": "Process",
+    "quote": "Get a quote",
+    "contact": "Contact"
+  }
+}

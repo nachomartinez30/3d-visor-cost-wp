@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "eyebrow": "Impresión 3D profesional",
+    "title": "De tu archivo 3D a una pieza real, sin vueltas.",
+    "lead": "Subí tu modelo, elegí material y resolución, y obtené un precio estimado al instante. Si la pieza es compleja, nuestro equipo la revisa y te contacta.",
+    "cta": "Cotizar ahora",
+    "secondaryCta": "Ver servicios"
+  },
+  "images": {
+    "hero": { "alt": "Impresora 3D con detalles naranjas sobre un banco de trabajo" },
+    "farm": { "alt": "Fila de impresoras 3D fabricando cilindros de plástico azul" },
+    "printing": { "alt": "Impresora 3D creando un objeto rojo con filamento amarillo" }
+  },
+  "services": {
+    "eyebrow": "Servicios",
+    "title": "Todo lo que necesitás para imprimir tus piezas",
+    "items": {
+      "prototyping": {
+        "title": "Prototipado rápido",
+        "description": "Validá formas y encastres en días, no semanas, con PLA, PETG o resina."
+      },
+      "production": {
+        "title": "Series cortas",
+        "description": "De 10 a 1.000 unidades con calidad repetible y costos predecibles."
+      },
+      "design": {
+        "title": "Diseño para impresión",
+        "description": "Adaptamos tu modelo para reducir soportes, tiempo y material."
+      },
+      "finishing": {
+        "title": "Terminaciones",
+        "description": "Lijado, pintura e insertos roscados para piezas listas para usar."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Nosotros",
+    "title": "Un taller de impresión 3D con criterio de ingeniería",
+    "body1": "Somos un equipo de diseñadores e ingenieros que imprime piezas funcionales para makers, estudios y empresas.",
+    "body2": "Combinamos cotización automática para piezas simples con revisión humana para las que requieren soportes o cuidados especiales."
+  },
+  "stats": {
+    "parts": "Piezas impresas",
+    "printers": "Impresoras activas",
+    "turnaround": "Entrega típica",
+    "clients": "Clientes"
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Cinco pasos, cero sorpresas",
+    "steps": {
+      "upload": { "title": "Subís tu modelo", "description": "STL, OBJ o 3MF directo desde el navegador." },
+      "configure": { "title": "Configurás", "description": "Material, color, relleno y resolución, con precio en vivo." },
+      "check": { "title": "Revisamos", "description": "Si detectamos voladizos o partes flotantes, te cotizamos a mano." },
+      "print": { "title": "Imprimimos", "description": "Calibramos y controlamos cada trabajo." },
+      "deliver": { "title": "Entregamos", "description": "Retiro en taller o envío a todo el país." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Opiniones",
+    "title": "Lo que dicen nuestros clientes",
+    "items": {
+      "maker": {
+        "quote": "Subí el archivo a la noche y al otro día ya tenía la confirmación. Rapidísimo.",
+        "author": "Lucía M.",
+        "role": "Maker y diseñadora"
+      },
+      "engineer": {
+        "quote": "Nos avisaron que la pieza necesitaba soportes y nos propusieron reorientarla. Ahorramos material.",
+        "author": "Martín R.",
+        "role": "Ingeniero de producto"
+      },
+      "studio": {
+        "quote": "Las series cortas salen siempre iguales. Ideal para nuestros lanzamientos.",
+        "author": "Estudio Norte",
+        "role": "Estudio de diseño industrial"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "address": "Av. Ejemplo 1234, Buenos Aires",
+    "hours": "Lunes a viernes, 9 a 18 h",
+    "legal": "© {{year}} {{name}}. Marca de ejemplo — reemplazar por la del cliente."
+  },
+  "credits": {
+    "title": "Créditos de imágenes",
+    "photoBy": "Foto de",
+    "onUnsplash": "en Unsplash"
+  }
+}

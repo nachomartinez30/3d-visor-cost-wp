@@ -1,0 +1,161 @@
+{
+  "section": {
+    "eyebrow": "Quote",
+    "title": "Quote your part in seconds",
+    "lead": "Upload your file and choose the print options. The price updates live."
+  },
+  "instructions": {
+    "autoTitle": "Automatic quote",
+    "step1": "Upload your model as {{formats}}.",
+    "step2": "Choose material, color, infill and resolution (layer height).",
+    "step3": "We calculate volume, weight and print time, and show you an estimated price.",
+    "limits": "Max file size: {{maxMb}} MB. Build volume: {{x}} × {{y}} × {{z}} mm. Units are read as millimetres.",
+    "manualTitle": "Manual quote",
+    "manualIntro": "Some parts need a person to review them before we can price them. We send them to manual quote when they have:",
+    "manualSupports": "Many overhangs that need supports.",
+    "manualIslands": "Floating parts or parts disconnected from the base.",
+    "manualDetail": "Very fine detail, very thin walls or a very complex mesh.",
+    "manualSize": "A size larger than the build volume or smaller than the minimum.",
+    "estimateNote": "The automatic price is an estimate. For manual quotes, our team contacts you with the final price.",
+    "samples": "No file at hand? Try a sample:",
+    "sampleFiles": {
+      "cube": "Cube (automatic)",
+      "tShape": "T-shape (overhangs)",
+      "island": "Floating island"
+    }
+  },
+  "upload": {
+    "dragHere": "Drag your file here",
+    "analyzing": "Analyzing the model…",
+    "choose": "Choose file",
+    "replace": "Replace file",
+    "hint": "Formats: {{formats}}. {{max}}",
+    "maxSize": "Max {{max}} MB.",
+    "selected": "File: {{name}}",
+    "errors": {
+      "UNSUPPORTED_FORMAT": "The \".{{extension}}\" format is not supported. Use: {{accepted}}.",
+      "FILE_TOO_LARGE": "The file is {{size}} MB and the maximum is {{max}} MB.",
+      "EMPTY_FILE": "The file is empty.",
+      "PARSE_FAILED": "We could not read the model. Check that the file is not damaged."
+    }
+  },
+  "options": {
+    "title": "Print options",
+    "material": "Material",
+    "color": "Color",
+    "infill": "Infill",
+    "resolution": "Resolution",
+    "layerHeightValue": "{{value}} mm layer",
+    "materials": {
+      "pla": "general purpose",
+      "petg": "tough, outdoor use",
+      "abs": "heat resistant",
+      "tpu": "flexible",
+      "resin": "high detail"
+    },
+    "colors": {
+      "white": "White",
+      "black": "Black",
+      "orange": "Orange",
+      "blue": "Blue",
+      "red": "Red",
+      "green": "Green",
+      "clear": "Clear",
+      "grey": "Grey"
+    },
+    "infillLevels": {
+      "10": "light",
+      "20": "standard",
+      "40": "reinforced",
+      "60": "very strong",
+      "100": "solid"
+    },
+    "layerHeights": {
+      "draft": "Draft",
+      "standard": "Standard",
+      "fine": "Fine"
+    }
+  },
+  "viewer": {
+    "label": "3D preview of the model",
+    "empty": "The 3D preview appears when you upload a model.",
+    "loading": "Loading 3D viewer…",
+    "unavailable": "The 3D preview is not available in this browser. Quoting still works.",
+    "showOverhangs": "Highlight overhangs",
+    "help": "Drag to rotate, scroll to zoom."
+  },
+  "results": {
+    "empty": "Upload a model to see the estimated price.",
+    "badge": "Automatic quote",
+    "title": "Estimated price",
+    "total": "Total",
+    "dimensions": "Dimensions",
+    "dimensionsValue": "{{x}} × {{y}} × {{z}} mm",
+    "volume": "Volume",
+    "volumeValue": "{{value}} cm³",
+    "weight": "Estimated weight",
+    "weightValue": "{{value}} g",
+    "time": "Print time",
+    "timeValue": "{{hours}} h {{minutes}} min",
+    "breakdown": "Price breakdown",
+    "material": "Material",
+    "machine": "Machine time",
+    "setup": "Setup",
+    "margin": "Margin",
+    "minimumOrder": "Minimum order adjustment",
+    "disclaimer": "Estimated price calculated in your browser. It may change slightly when the order is confirmed."
+  },
+  "review": {
+    "badge": "Manual quote",
+    "title": "This part needs a review",
+    "intro": "We can't give you an automatic price because we detected the following. Leave your details and we will contact you with the final price:"
+  },
+  "triage": {
+    "reasons": {
+      "FLOATING_ISLANDS": "Floating parts: {{measured}} region(s) not resting on the base or on the rest of the part.",
+      "SUPPORTS_REQUIRED": "Needs supports: {{measured}} of the surface is overhanging (automatic limit {{limit}}).",
+      "UNSUPPORTED_OVERHANG": "Overhangs over empty space: {{measured}} mm² need supports from the bed (limit {{limit}} mm²).",
+      "OVERSIZED": "Part too large: {{measured}} mm exceeds the build volume.",
+      "TOO_SMALL": "Part too small: {{measured}} mm (minimum {{limit}} mm).",
+      "FINE_DETAIL": "Very fine detail or thin walls (surface/volume ratio {{measured}}, limit {{limit}}).",
+      "HIGH_COMPLEXITY": "Very complex mesh: {{measured}} triangles (limit {{limit}}).",
+      "NON_MANIFOLD": "The mesh is not closed: {{measured}} open edges.",
+      "INVALID_VOLUME": "We could not compute a valid volume for the part.",
+      "HIGH_PRICE": "High-value job: over {{limit}}; we prefer to review it by hand.",
+      "LONG_PRINT": "Very long print: {{measured}} h (limit {{limit}} h)."
+    }
+  },
+  "form": {
+    "title": "Request a manual quote",
+    "requiredHint": "Fields marked with * are required.",
+    "optional": "(optional)",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "notes": "Notes"
+    },
+    "placeholders": {
+      "name": "Your name",
+      "email": "name@example.com",
+      "phone": "+1 555 123 4567",
+      "notes": "Quantity, deadline, how the part will be used…"
+    },
+    "errors": {
+      "REQUIRED": "This field is required.",
+      "INVALID_EMAIL": "Enter a valid email, for example name@example.com.",
+      "INVALID_PHONE": "Enter a valid phone number (7 to 15 digits).",
+      "TOO_LONG": "Maximum {{max}} characters."
+    },
+    "failures": {
+      "HTTP": "The server rejected the request. Please try again in a few minutes.",
+      "TIMEOUT": "The server took too long to answer. Please try again.",
+      "NETWORK": "We could not connect. Check your connection and try again."
+    },
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "successTitle": "Request sent!",
+    "successBody": "We received your model. Our team will contact you with the final price.",
+    "reference": "Reference number: {{id}}"
+  }
+}

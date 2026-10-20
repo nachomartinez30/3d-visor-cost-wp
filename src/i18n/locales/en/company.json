@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "eyebrow": "Professional 3D printing",
+    "title": "From your 3D file to a real part, without the hassle.",
+    "lead": "Upload your model, choose material and resolution, and get an estimated price instantly. If the part is complex, our team reviews it and contacts you.",
+    "cta": "Get a quote",
+    "secondaryCta": "See services"
+  },
+  "images": {
+    "hero": { "alt": "3D printer with orange accents on a workbench" },
+    "farm": { "alt": "A row of 3D printers creating blue plastic cylinders" },
+    "printing": { "alt": "3D printer creating a red object with yellow filament" }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Everything you need to print your parts",
+    "items": {
+      "prototyping": {
+        "title": "Rapid prototyping",
+        "description": "Validate shapes and fits in days, not weeks, with PLA, PETG or resin."
+      },
+      "production": {
+        "title": "Short runs",
+        "description": "From 10 to 1,000 units with repeatable quality and predictable costs."
+      },
+      "design": {
+        "title": "Design for printing",
+        "description": "We adapt your model to reduce supports, time and material."
+      },
+      "finishing": {
+        "title": "Finishing",
+        "description": "Sanding, painting and threaded inserts for ready-to-use parts."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A 3D printing workshop with an engineering mindset",
+    "body1": "We are a team of designers and engineers printing functional parts for makers, studios and companies.",
+    "body2": "We combine automatic quotes for simple parts with human review for parts that need supports or special care."
+  },
+  "stats": {
+    "parts": "Parts printed",
+    "printers": "Active printers",
+    "turnaround": "Typical turnaround",
+    "clients": "Clients"
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "Five steps, zero surprises",
+    "steps": {
+      "upload": { "title": "Upload your model", "description": "STL, OBJ or 3MF straight from your browser." },
+      "configure": { "title": "Configure", "description": "Material, color, infill and resolution, with a live price." },
+      "check": { "title": "We check it", "description": "If we detect overhangs or floating parts, we quote it by hand." },
+      "print": { "title": "We print", "description": "Every job is calibrated and inspected." },
+      "deliver": { "title": "We deliver", "description": "Pick up at the workshop or nationwide shipping." }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Reviews",
+    "title": "What our clients say",
+    "items": {
+      "maker": {
+        "quote": "I uploaded the file at night and had the confirmation the next day. Super fast.",
+        "author": "Lucía M.",
+        "role": "Maker and designer"
+      },
+      "engineer": {
+        "quote": "They warned us the part needed supports and suggested a new orientation. We saved material.",
+        "author": "Martín R.",
+        "role": "Product engineer"
+      },
+      "studio": {
+        "quote": "Short runs always come out identical. Perfect for our launches.",
+        "author": "Estudio Norte",
+        "role": "Industrial design studio"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "1234 Example Ave, Buenos Aires",
+    "hours": "Monday to Friday, 9 am to 6 pm",
+    "legal": "© {{year}} {{name}}. Sample brand — replace with the client's brand."
+  },
+  "credits": {
+    "title": "Image credits",
+    "photoBy": "Photo by",
+    "onUnsplash": "on Unsplash"
+  }
+}

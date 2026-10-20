@@ -1,0 +1,170 @@
+solid t-shape-overhang.stl
+ facet normal 0 0 0
+  outer loop
+   vertex -5 -5 0
+   vertex 5 5 0
+   vertex 5 -5 0
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -5 -5 0
+   vertex -5 5 0
+   vertex 5 5 0
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -5 -5 30
+   vertex 5 -5 30
+   vertex 5 5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -5 -5 30
+   vertex 5 5 30
+   vertex -5 5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -5 -5 0
+   vertex 5 -5 0
+   vertex 5 -5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -5 -5 0
+   vertex 5 -5 30
+   vertex -5 -5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 5 -5 0
+   vertex 5 5 0
+   vertex 5 5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 5 -5 0
+   vertex 5 5 30
+   vertex 5 -5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 5 5 0
+   vertex -5 5 0
+   vertex -5 5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 5 5 0
+   vertex -5 5 30
+   vertex 5 5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -5 5 0
+   vertex -5 -5 0
+   vertex -5 -5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -5 5 0
+   vertex -5 -5 30
+   vertex -5 5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -20 -5 30
+   vertex 20 5 30
+   vertex 20 -5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -20 -5 30
+   vertex -20 5 30
+   vertex 20 5 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -20 -5 40
+   vertex 20 -5 40
+   vertex 20 5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -20 -5 40
+   vertex 20 5 40
+   vertex -20 5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -20 -5 30
+   vertex 20 -5 30
+   vertex 20 -5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -20 -5 30
+   vertex 20 -5 40
+   vertex -20 -5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 20 -5 30
+   vertex 20 5 30
+   vertex 20 5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 20 -5 30
+   vertex 20 5 40
+   vertex 20 -5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 20 5 30
+   vertex -20 5 30
+   vertex -20 5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 20 5 30
+   vertex -20 5 40
+   vertex 20 5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -20 5 30
+   vertex -20 -5 30
+   vertex -20 -5 40
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex -20 5 30
+   vertex -20 -5 40
+   vertex -20 5 40
+  endloop
+ endfacet
+endsolid t-shape-overhang.stl

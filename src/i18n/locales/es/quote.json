@@ -1,0 +1,161 @@
+{
+  "section": {
+    "eyebrow": "Cotizador",
+    "title": "Cotizá tu pieza en segundos",
+    "lead": "Subí tu archivo y elegí las opciones de impresión. El precio se recalcula en vivo."
+  },
+  "instructions": {
+    "autoTitle": "Cotización automática",
+    "step1": "Subí tu modelo en formato {{formats}}.",
+    "step2": "Elegí material, color, relleno y resolución (altura de capa).",
+    "step3": "Calculamos volumen, peso y tiempo de impresión, y te mostramos un precio estimado.",
+    "limits": "Tamaño máximo de archivo: {{maxMb}} MB. Volumen de impresión: {{x}} × {{y}} × {{z}} mm. Las medidas se leen en milímetros.",
+    "manualTitle": "Cotización manual",
+    "manualIntro": "Algunas piezas necesitan que una persona las revise antes de dar un precio. Las enviamos a cotización manual cuando tienen:",
+    "manualSupports": "Muchos voladizos que requieren soportes.",
+    "manualIslands": "Partes flotantes o desconectadas de la base.",
+    "manualDetail": "Detalle muy fino, paredes muy delgadas o una malla muy compleja.",
+    "manualSize": "Medidas mayores al volumen de impresión o menores al mínimo.",
+    "estimateNote": "El precio automático es una estimación. En cotización manual, nuestro equipo te contacta con el precio final.",
+    "samples": "¿No tenés un archivo a mano? Probá un ejemplo:",
+    "sampleFiles": {
+      "cube": "Cubo (automático)",
+      "tShape": "Forma de T (voladizos)",
+      "island": "Isla flotante"
+    }
+  },
+  "upload": {
+    "dragHere": "Arrastrá tu archivo acá",
+    "analyzing": "Analizando el modelo…",
+    "choose": "Elegir archivo",
+    "replace": "Cambiar archivo",
+    "hint": "Formatos: {{formats}}. {{max}}",
+    "maxSize": "Máximo {{max}} MB.",
+    "selected": "Archivo: {{name}}",
+    "errors": {
+      "UNSUPPORTED_FORMAT": "El formato \".{{extension}}\" no está soportado. Usá: {{accepted}}.",
+      "FILE_TOO_LARGE": "El archivo pesa {{size}} MB y el máximo es {{max}} MB.",
+      "EMPTY_FILE": "El archivo está vacío.",
+      "PARSE_FAILED": "No pudimos leer el modelo. Revisá que el archivo no esté dañado."
+    }
+  },
+  "options": {
+    "title": "Opciones de impresión",
+    "material": "Material",
+    "color": "Color",
+    "infill": "Relleno",
+    "resolution": "Resolución",
+    "layerHeightValue": "capa de {{value}} mm",
+    "materials": {
+      "pla": "uso general",
+      "petg": "resistente y apto para exterior",
+      "abs": "resistente al calor",
+      "tpu": "flexible",
+      "resin": "alto detalle"
+    },
+    "colors": {
+      "white": "Blanco",
+      "black": "Negro",
+      "orange": "Naranja",
+      "blue": "Azul",
+      "red": "Rojo",
+      "green": "Verde",
+      "clear": "Transparente",
+      "grey": "Gris"
+    },
+    "infillLevels": {
+      "10": "liviano",
+      "20": "estándar",
+      "40": "reforzado",
+      "60": "muy resistente",
+      "100": "macizo"
+    },
+    "layerHeights": {
+      "draft": "Borrador",
+      "standard": "Estándar",
+      "fine": "Fina"
+    }
+  },
+  "viewer": {
+    "label": "Vista previa 3D del modelo",
+    "empty": "La vista previa 3D aparecerá cuando subas un modelo.",
+    "loading": "Cargando visor 3D…",
+    "unavailable": "La vista previa 3D no está disponible en este navegador. La cotización sigue funcionando.",
+    "showOverhangs": "Resaltar voladizos",
+    "help": "Arrastrá para girar, rueda para hacer zoom."
+  },
+  "results": {
+    "empty": "Subí un modelo para ver el precio estimado.",
+    "badge": "Cotización automática",
+    "title": "Precio estimado",
+    "total": "Total",
+    "dimensions": "Medidas",
+    "dimensionsValue": "{{x}} × {{y}} × {{z}} mm",
+    "volume": "Volumen",
+    "volumeValue": "{{value}} cm³",
+    "weight": "Peso estimado",
+    "weightValue": "{{value}} g",
+    "time": "Tiempo de impresión",
+    "timeValue": "{{hours}} h {{minutes}} min",
+    "breakdown": "Detalle del precio",
+    "material": "Material",
+    "machine": "Tiempo de máquina",
+    "setup": "Preparación",
+    "margin": "Margen",
+    "minimumOrder": "Ajuste a pedido mínimo",
+    "disclaimer": "Precio estimado calculado en el navegador. Puede variar levemente al confirmar el pedido."
+  },
+  "review": {
+    "badge": "Cotización manual",
+    "title": "Esta pieza necesita revisión",
+    "intro": "No podemos darte un precio automático porque detectamos lo siguiente. Dejanos tus datos y te contactamos con el precio final:"
+  },
+  "triage": {
+    "reasons": {
+      "FLOATING_ISLANDS": "Partes flotantes: {{measured}} región(es) sin apoyo en la base o en el resto de la pieza.",
+      "SUPPORTS_REQUIRED": "Necesita soportes: el {{measured}} de la superficie está en voladizo (máximo automático {{limit}}).",
+      "UNSUPPORTED_OVERHANG": "Voladizos sobre el vacío: {{measured}} mm² necesitan soportes desde la cama (máximo {{limit}} mm²).",
+      "OVERSIZED": "Pieza demasiado grande: {{measured}} mm supera el volumen de impresión.",
+      "TOO_SMALL": "Pieza demasiado pequeña: {{measured}} mm (mínimo {{limit}} mm).",
+      "FINE_DETAIL": "Detalle muy fino o paredes delgadas (relación superficie/volumen {{measured}}, máximo {{limit}}).",
+      "HIGH_COMPLEXITY": "Malla muy compleja: {{measured}} triángulos (máximo {{limit}}).",
+      "NON_MANIFOLD": "La malla no es cerrada: {{measured}} bordes abiertos.",
+      "INVALID_VOLUME": "No se pudo calcular un volumen válido para la pieza.",
+      "HIGH_PRICE": "Trabajo de alto valor: más de {{limit}}; preferimos revisarlo a mano.",
+      "LONG_PRINT": "Impresión muy larga: {{measured}} h (máximo {{limit}} h)."
+    }
+  },
+  "form": {
+    "title": "Solicitar cotización manual",
+    "requiredHint": "Los campos con * son obligatorios.",
+    "optional": "(opcional)",
+    "fields": {
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "notes": "Notas"
+    },
+    "placeholders": {
+      "name": "Tu nombre",
+      "email": "nombre@ejemplo.com",
+      "phone": "+54 11 5555-1234",
+      "notes": "Cantidad, plazos, uso de la pieza…"
+    },
+    "errors": {
+      "REQUIRED": "Este campo es obligatorio.",
+      "INVALID_EMAIL": "Ingresá un email válido, por ejemplo nombre@ejemplo.com.",
+      "INVALID_PHONE": "Ingresá un teléfono válido (7 a 15 dígitos).",
+      "TOO_LONG": "Máximo {{max}} caracteres."
+    },
+    "failures": {
+      "HTTP": "El servidor rechazó la solicitud. Probá de nuevo en unos minutos.",
+      "TIMEOUT": "El servidor tardó demasiado en responder. Probá de nuevo.",
+      "NETWORK": "No pudimos conectarnos. Revisá tu conexión e intentá otra vez."
+    },
+    "submit": "Enviar solicitud",
+    "submitting": "Enviando…",
+    "successTitle": "¡Solicitud enviada!",
+    "successBody": "Recibimos tu modelo. Nuestro equipo te contactará con el precio final.",
+    "reference": "Número de referencia: {{id}}"
+  }
+}

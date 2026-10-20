@@ -1,0 +1,20 @@
+{
+  "brand": {
+    "tagline": "Impresión 3D bajo demanda, cotizada en segundos."
+  },
+  "language": {
+    "label": "Idioma",
+    "name": "Español"
+  },
+  "nav": {
+    "home": "Layerform 3D — inicio",
+    "menu": "Abrir menú",
+    "label": "Navegación principal",
+    "skip": "Saltar al contenido",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "process": "Proceso",
+    "quote": "Cotizar",
+    "contact": "Contacto"
+  }
+}

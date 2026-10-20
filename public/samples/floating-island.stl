@@ -1,0 +1,170 @@
+solid floating-island.stl
+ facet normal 0 0 0
+  outer loop
+   vertex 0 0 0
+   vertex 40 40 0
+   vertex 40 0 0
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 0 0 0
+   vertex 0 40 0
+   vertex 40 40 0
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 0 0 5
+   vertex 40 0 5
+   vertex 40 40 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 0 0 5
+   vertex 40 40 5
+   vertex 0 40 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 0 0 0
+   vertex 40 0 0
+   vertex 40 0 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 0 0 0
+   vertex 40 0 5
+   vertex 0 0 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 40 0 0
+   vertex 40 40 0
+   vertex 40 40 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 40 0 0
+   vertex 40 40 5
+   vertex 40 0 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 40 40 0
+   vertex 0 40 0
+   vertex 0 40 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 40 40 0
+   vertex 0 40 5
+   vertex 40 40 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 0 40 0
+   vertex 0 0 0
+   vertex 0 0 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 0 40 0
+   vertex 0 0 5
+   vertex 0 40 5
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 10 10 20
+   vertex 30 30 20
+   vertex 30 10 20
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 10 10 20
+   vertex 10 30 20
+   vertex 30 30 20
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 10 10 30
+   vertex 30 10 30
+   vertex 30 30 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 10 10 30
+   vertex 30 30 30
+   vertex 10 30 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 10 10 20
+   vertex 30 10 20
+   vertex 30 10 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 10 10 20
+   vertex 30 10 30
+   vertex 10 10 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 30 10 20
+   vertex 30 30 20
+   vertex 30 30 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 30 10 20
+   vertex 30 30 30
+   vertex 30 10 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 30 30 20
+   vertex 10 30 20
+   vertex 10 30 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 30 30 20
+   vertex 10 30 30
+   vertex 30 30 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 10 30 20
+   vertex 10 10 20
+   vertex 10 10 30
+  endloop
+ endfacet
+ facet normal 0 0 0
+  outer loop
+   vertex 10 30 20
+   vertex 10 10 30
+   vertex 10 30 30
+  endloop
+ endfacet
+endsolid floating-island.stl
