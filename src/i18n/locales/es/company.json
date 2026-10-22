@@ -1,8 +1,8 @@
 {
   "hero": {
     "eyebrow": "Impresión 3D profesional",
-    "title": "De tu archivo 3D a una pieza real, sin vueltas.",
-    "lead": "Subí tu modelo, elegí material y resolución, y obtené un precio estimado al instante. Si la pieza es compleja, nuestro equipo la revisa y te contacta.",
+    "title": "De tu archivo 3D a una pieza real, sin complicaciones.",
+    "lead": "Sube tu modelo, elige material y resolución, y obtén un precio estimado al instante. Si la pieza es compleja, nuestro equipo la revisa y te contacta.",
     "cta": "Cotizar ahora",
     "secondaryCta": "Ver servicios"
   },
@@ -13,11 +13,11 @@
   },
   "services": {
     "eyebrow": "Servicios",
-    "title": "Todo lo que necesitás para imprimir tus piezas",
+    "title": "Todo lo que necesitas para imprimir tus piezas",
     "items": {
       "prototyping": {
         "title": "Prototipado rápido",
-        "description": "Validá formas y encastres en días, no semanas, con PLA, PETG o resina."
+        "description": "Valida formas y encajes en días, no semanas, con PLA, PETG o resina."
       },
       "production": {
         "title": "Series cortas",
@@ -28,7 +28,7 @@
         "description": "Adaptamos tu modelo para reducir soportes, tiempo y material."
       },
       "finishing": {
-        "title": "Terminaciones",
+        "title": "Acabados",
         "description": "Lijado, pintura e insertos roscados para piezas listas para usar."
       }
     }
@@ -49,11 +49,11 @@
     "eyebrow": "Cómo trabajamos",
     "title": "Cinco pasos, cero sorpresas",
     "steps": {
-      "upload": { "title": "Subís tu modelo", "description": "STL, OBJ o 3MF directo desde el navegador." },
-      "configure": { "title": "Configurás", "description": "Material, color, relleno y resolución, con precio en vivo." },
+      "upload": { "title": "Subes tu modelo", "description": "STL, OBJ o 3MF directo desde el navegador." },
+      "configure": { "title": "Configuras", "description": "Material, color, relleno y resolución, con precio en vivo." },
       "check": { "title": "Revisamos", "description": "Si detectamos voladizos o partes flotantes, te cotizamos a mano." },
       "print": { "title": "Imprimimos", "description": "Calibramos y controlamos cada trabajo." },
-      "deliver": { "title": "Entregamos", "description": "Retiro en taller o envío a todo el país." }
+      "deliver": { "title": "Entregamos", "description": "Recogida en taller o envío a todo el país." }
     }
   },
   "testimonials": {
@@ -61,7 +61,7 @@
     "title": "Lo que dicen nuestros clientes",
     "items": {
       "maker": {
-        "quote": "Subí el archivo a la noche y al otro día ya tenía la confirmación. Rapidísimo.",
+        "quote": "Subí el archivo en la noche y al día siguiente ya tenía la confirmación. Rapidísimo.",
         "author": "Lucía M.",
         "role": "Maker y diseñadora"
       },

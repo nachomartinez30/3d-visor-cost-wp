@@ -107,6 +107,6 @@ describe('QuoteSection', () => {
 
   it('renders in Spanish by default', async () => {
     renderWithI18n(<QuoteSection deps={makeDeps(cube50)} />, 'es');
-    expect(screen.getByRole('heading', { name: 'Cotizá tu pieza en segundos' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Cotiza tu pieza en segundos' })).toBeInTheDocument();
   });
 });
